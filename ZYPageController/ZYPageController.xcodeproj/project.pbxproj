@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A38AB50E2047F52000BE3FDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB50D2047F52000BE3FDB /* AppDelegate.m */; };
+		A38AB5112047F52000BE3FDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB5102047F52000BE3FDB /* ViewController.m */; };
+		A38AB5142047F52000BE3FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38AB5122047F52000BE3FDB /* Main.storyboard */; };
+		A38AB5162047F52000BE3FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38AB5152047F52000BE3FDB /* Assets.xcassets */; };
+		A38AB5192047F52000BE3FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38AB5172047F52000BE3FDB /* LaunchScreen.storyboard */; };
+		A38AB51C2047F52000BE3FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB51B2047F52000BE3FDB /* main.m */; };
+		A38AB5252047FC6200BE3FDB /* MonkeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB5242047FC6200BE3FDB /* MonkeyViewController.m */; };
+		A38AB5282047FC7200BE3FDB /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB5272047FC7200BE3FDB /* DogViewController.m */; };
+		A38AB52B2047FC7900BE3FDB /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB52A2047FC7900BE3FDB /* CatViewController.m */; };
+		A38AB52E2047FC9800BE3FDB /* CowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB52D2047FC9800BE3FDB /* CowViewController.m */; };
+		A38AB5312047FCD000BE3FDB /* ElephantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB5302047FCD000BE3FDB /* ElephantViewController.m */; };
+		A38AB5342047FCE700BE3FDB /* RabbitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB5332047FCE700BE3FDB /* RabbitViewController.m */; };
+		A38AB53A2048385D00BE3FDB /* ZYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB5392048385D00BE3FDB /* ZYViewController.m */; };
+		A38AB53D2048395E00BE3FDB /* AntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AB53C2048395E00BE3FDB /* AntViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A38AB5092047F52000BE3FDB /* ZYPageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYPageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38AB50C2047F52000BE3FDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A38AB50D2047F52000BE3FDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A38AB50F2047F52000BE3FDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A38AB5102047F52000BE3FDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A38AB5132047F52000BE3FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A38AB5152047F52000BE3FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A38AB5182047F52000BE3FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A38AB51A2047F52000BE3FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38AB51B2047F52000BE3FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A38AB5232047FC6200BE3FDB /* MonkeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonkeyViewController.h; sourceTree = "<group>"; };
+		A38AB5242047FC6200BE3FDB /* MonkeyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonkeyViewController.m; sourceTree = "<group>"; };
+		A38AB5262047FC7200BE3FDB /* DogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
+		A38AB5272047FC7200BE3FDB /* DogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
+		A38AB5292047FC7900BE3FDB /* CatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatViewController.h; sourceTree = "<group>"; };
+		A38AB52A2047FC7900BE3FDB /* CatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatViewController.m; sourceTree = "<group>"; };
+		A38AB52C2047FC9800BE3FDB /* CowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CowViewController.h; sourceTree = "<group>"; };
+		A38AB52D2047FC9800BE3FDB /* CowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CowViewController.m; sourceTree = "<group>"; };
+		A38AB52F2047FCD000BE3FDB /* ElephantViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElephantViewController.h; sourceTree = "<group>"; };
+		A38AB5302047FCD000BE3FDB /* ElephantViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElephantViewController.m; sourceTree = "<group>"; };
+		A38AB5322047FCE700BE3FDB /* RabbitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RabbitViewController.h; sourceTree = "<group>"; };
+		A38AB5332047FCE700BE3FDB /* RabbitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RabbitViewController.m; sourceTree = "<group>"; };
+		A38AB5382048385D00BE3FDB /* ZYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYViewController.h; sourceTree = "<group>"; };
+		A38AB5392048385D00BE3FDB /* ZYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYViewController.m; sourceTree = "<group>"; };
+		A38AB53B2048395E00BE3FDB /* AntViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AntViewController.h; sourceTree = "<group>"; };
+		A38AB53C2048395E00BE3FDB /* AntViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38AB5062047F52000BE3FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38AB5002047F52000BE3FDB = {
+			isa = PBXGroup;
+			children = (
+				A38AB50B2047F52000BE3FDB /* ZYPageController */,
+				A38AB50A2047F52000BE3FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A38AB50A2047F52000BE3FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38AB5092047F52000BE3FDB /* ZYPageController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A38AB50B2047F52000BE3FDB /* ZYPageController */ = {
+			isa = PBXGroup;
+			children = (
+				A38AB5222047FBF300BE3FDB /* Controllers */,
+				A38AB50C2047F52000BE3FDB /* AppDelegate.h */,
+				A38AB50D2047F52000BE3FDB /* AppDelegate.m */,
+				A38AB50F2047F52000BE3FDB /* ViewController.h */,
+				A38AB5102047F52000BE3FDB /* ViewController.m */,
+				A38AB5122047F52000BE3FDB /* Main.storyboard */,
+				A38AB5152047F52000BE3FDB /* Assets.xcassets */,
+				A38AB5172047F52000BE3FDB /* LaunchScreen.storyboard */,
+				A38AB51A2047F52000BE3FDB /* Info.plist */,
+				A38AB51B2047F52000BE3FDB /* main.m */,
+				A38AB5382048385D00BE3FDB /* ZYViewController.h */,
+				A38AB5392048385D00BE3FDB /* ZYViewController.m */,
+			);
+			path = ZYPageController;
+			sourceTree = "<group>";
+		};
+		A38AB5222047FBF300BE3FDB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A38AB5232047FC6200BE3FDB /* MonkeyViewController.h */,
+				A38AB5242047FC6200BE3FDB /* MonkeyViewController.m */,
+				A38AB5262047FC7200BE3FDB /* DogViewController.h */,
+				A38AB5272047FC7200BE3FDB /* DogViewController.m */,
+				A38AB5292047FC7900BE3FDB /* CatViewController.h */,
+				A38AB52A2047FC7900BE3FDB /* CatViewController.m */,
+				A38AB52C2047FC9800BE3FDB /* CowViewController.h */,
+				A38AB52D2047FC9800BE3FDB /* CowViewController.m */,
+				A38AB52F2047FCD000BE3FDB /* ElephantViewController.h */,
+				A38AB5302047FCD000BE3FDB /* ElephantViewController.m */,
+				A38AB5322047FCE700BE3FDB /* RabbitViewController.h */,
+				A38AB5332047FCE700BE3FDB /* RabbitViewController.m */,
+				A38AB53B2048395E00BE3FDB /* AntViewController.h */,
+				A38AB53C2048395E00BE3FDB /* AntViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38AB5082047F52000BE3FDB /* ZYPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38AB51F2047F52000BE3FDB /* Build configuration list for PBXNativeTarget "ZYPageController" */;
+			buildPhases = (
+				A38AB5052047F52000BE3FDB /* Sources */,
+				A38AB5062047F52000BE3FDB /* Frameworks */,
+				A38AB5072047F52000BE3FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYPageController;
+			productName = ZYPageController;
+			productReference = A38AB5092047F52000BE3FDB /* ZYPageController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38AB5012047F52000BE3FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = sunny;
+				TargetAttributes = {
+					A38AB5082047F52000BE3FDB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A38AB5042047F52000BE3FDB /* Build configuration list for PBXProject "ZYPageController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A38AB5002047F52000BE3FDB;
+			productRefGroup = A38AB50A2047F52000BE3FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38AB5082047F52000BE3FDB /* ZYPageController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38AB5072047F52000BE3FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38AB5192047F52000BE3FDB /* LaunchScreen.storyboard in Resources */,
+				A38AB5162047F52000BE3FDB /* Assets.xcassets in Resources */,
+				A38AB5142047F52000BE3FDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38AB5052047F52000BE3FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38AB5112047F52000BE3FDB /* ViewController.m in Sources */,
+				A38AB51C2047F52000BE3FDB /* main.m in Sources */,
+				A38AB5282047FC7200BE3FDB /* DogViewController.m in Sources */,
+				A38AB53A2048385D00BE3FDB /* ZYViewController.m in Sources */,
+				A38AB5312047FCD000BE3FDB /* ElephantViewController.m in Sources */,
+				A38AB52B2047FC7900BE3FDB /* CatViewController.m in Sources */,
+				A38AB50E2047F52000BE3FDB /* AppDelegate.m in Sources */,
+				A38AB52E2047FC9800BE3FDB /* CowViewController.m in Sources */,
+				A38AB5252047FC6200BE3FDB /* MonkeyViewController.m in Sources */,
+				A38AB5342047FCE700BE3FDB /* RabbitViewController.m in Sources */,
+				A38AB53D2048395E00BE3FDB /* AntViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A38AB5122047F52000BE3FDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38AB5132047F52000BE3FDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A38AB5172047F52000BE3FDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38AB5182047F52000BE3FDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A38AB51D2047F52000BE3FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A38AB51E2047F52000BE3FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38AB5202047F52000BE3FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 995KGZDDWF;
+				INFOPLIST_FILE = ZYPageController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunny.ZYPageController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A38AB5212047F52000BE3FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 995KGZDDWF;
+				INFOPLIST_FILE = ZYPageController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunny.ZYPageController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38AB5042047F52000BE3FDB /* Build configuration list for PBXProject "ZYPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38AB51D2047F52000BE3FDB /* Debug */,
+				A38AB51E2047F52000BE3FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38AB51F2047F52000BE3FDB /* Build configuration list for PBXNativeTarget "ZYPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38AB5202047F52000BE3FDB /* Debug */,
+				A38AB5212047F52000BE3FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38AB5012047F52000BE3FDB /* Project object */;
+}
